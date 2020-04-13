@@ -2,8 +2,8 @@ package com.chess;
 
 public class Queen extends Piece {
 
-    public Queen(boolean isWhite){
-        super(isWhite);
+    public Queen(boolean isWhite, String resourcePath){
+        super(isWhite, resourcePath);
     }
 
     @Override

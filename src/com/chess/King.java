@@ -3,9 +3,10 @@ package com.chess;
 public class King extends Piece {
 
     private boolean castled = false;
+    private String resourcePath;
 
-    public King(boolean isWhite){
-        super(isWhite);
+    public King(boolean isWhite, String resourcePath){
+        super(isWhite, resourcePath);
     }
 
     public boolean isCastled(){
